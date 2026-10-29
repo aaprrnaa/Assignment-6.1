@@ -1,0 +1,73 @@
+
+/* General styling */
+* {
+    font-family: Arial, sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 20px;
+    background-color: #f1f5f9;
+    color: #1e293b;
+}
+
+h1 {
+    text-align: center;
+    color: #1d4ed8;
+}
+
+.intro {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* Common card styling */
+.card {
+    width: 250px;
+    background-color: white;
+    border-radius: 8px;
+}
+
+/* Box 1: content-box */
+.box1 {
+    box-sizing: content-box;
+    padding: 20px;
+    border: 5px solid #2563eb;
+    margin: 10px;
+}
+
+/* Box 2: border-box */
+.box2 {
+    box-sizing: border-box;
+    padding: 20px;
+    border: 5px solid #16a34a;
+    margin: 20px;
+}
+
+/* Box 3: Custom spacing */
+.box3 {
+    box-sizing: border-box;
+    padding: 30px;
+    border: 8px dashed #9333ea;
+    margin: 30px;
+}
+
+.explanation {
+    max-width: 700px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: white;
+    border: 2px solid #cbd5e1;
+    border-radius: 8px;
+}
+
+.explanation h2 {
+    color: #0f766e;
+}
